@@ -1,5 +1,7 @@
 # Micro serviço com react/node/kubernetes
 
+## VERSAO 1.0 (simplicidade é tudo)
+
 ### Primeiro fazer o clone do projeto
 
 ```
