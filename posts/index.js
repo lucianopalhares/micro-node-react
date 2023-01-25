@@ -32,7 +32,7 @@ app.get('/posts', async (req, res) => {
     
 });
 
-app.post('/posts', async (req, res) => {
+app.post('/posts/create', async (req, res) => {
     const id = randomBytes(4).toString('hex');
     const { title } = req.body;
 
@@ -77,6 +77,6 @@ app.get('/prune-query', async (req, res) => {
 })
 
 app.listen(4000, () => {
-    console.log('listening on 4000');
+    console.log('listening again on 4000');
 });
 
